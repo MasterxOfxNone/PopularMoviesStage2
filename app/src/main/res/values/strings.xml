@@ -1,0 +1,87 @@
+<resources xmlns:xliff="http://schemas.android.com/tools">
+
+    <string name="app_name">Popular Movies (Stage 2)</string>
+    <string name="title_movie_detail">Movie Details</string>
+
+    <!-- Menu label strings -->
+    <string name="action_settings">Settings</string>
+    <string name="action_search_mode">Sort Movies By..</string>
+    <string name="action_search_mode_favorites">Favorites</string>
+    <string name="action_search_mode_popular">Most Popular</string>
+    <string name="action_search_mode_top_rated">Highest Rated</string>
+
+    <!-- MovieListActivity: Toast strings -->
+    <string name="toast_empty_movie_list">Chosen movie list is empty.</string>
+
+    <!-- DetailActivity: Labels -->
+    <string name="label_movie_trailers">There are no trailers for this movie.</string>
+    <string name="label_movie_trailers_format">Trailers: (<xliff:g id="trailer_count">%1$s</xliff:g>)</string>
+    <string name="label_movie_reviews">There are no reviews for this movie.</string>
+    <string name="label_movie_reviews_format">Reviews: (<xliff:g id="review_count">%1$s</xliff:g>)</string>
+    <string name="label_movie_reviews_read_review">… Click to read full review!</string>
+
+    <!-- DetailActivity: Mock texts -->
+    <string name="mock_text_movie_title">Suicide Squad</string>
+    <string name="mock_text_movie_release_date">2016</string>
+    <string name="mock_text_movie_runtime">123mins</string>
+    <string name="mock_text_movie_user_rating">5.9/10</string>
+    <string name="mock_text_movie_plot_summary">From DC Comics comes the Suicide Squad, an antihero team of incarcerated supervillains who act as deniable assets for the United States government, undertaking high-risk black ops missions in exchange for commuted prison sentences.</string>
+
+    <!-- DetailActivity: Formatting strings -->
+    <string name="format_movie_user_rating"><xliff:g id="user_rating">%1.1f</xliff:g>/10</string>
+    <string name="format_movie_runtime"><xliff:g id="minutes">%1$s</xliff:g>mins</string>
+
+    <!-- SharedPreferences: TMDB Search Mode -->
+    <string name="prefs_search_mode_key">SEARCH_MODE</string>
+    <string name="prefs_search_mode_value_favorites">favorites</string>
+    <string name="prefs_search_mode_value_popular">popular</string>
+    <string name="prefs_search_mode_value_top_rated">top_rated</string>
+    <string name="prefs_search_mode_default_value">@string/prefs_search_mode_value_popular</string>
+
+    <!-- TheMovieDB API: URLs -->
+    <string name="tmdb_image_base_url">http://image.tmdb.org/t/p/w185</string>
+    <string name="tmdb_image_base_url_large">http://image.tmdb.org/t/p/w500</string>
+    <string name="tmdb_base_url">http://api.themoviedb.org/3/movie/</string>
+    <string name="tmdb_base_url_with_id">http://api.themoviedb.org/3/movie/<xliff:g id="movie_id">%1$s</xliff:g>/</string>
+
+    <!-- TheMovieDB API: Query parameter keys -->
+    <string name="tmdb_param_api_key">api_key</string>
+    <string name="tmdb_param_videos">videos</string>
+    <string name="tmdb_param_reviews">reviews</string>
+
+    <!-- TheMovieDB API: Global json keys -->
+    <string name="tmdb_json_id">id</string>
+    <string name="tmdb_json_results">results</string>
+
+    <!-- TheMovieDB API: Movie Details json keys -->
+    <string name="tmdb_json_poster_url">poster_path</string>
+    <string name="tmdb_json_title">original_title</string>
+    <string name="tmdb_json_overview">overview</string>
+    <string name="tmdb_json_user_rating">vote_average</string>
+    <string name="tmdb_json_release_date">release_date</string>
+    <string name="tmdb_json_runtime">runtime</string>
+
+    <!-- TheMovieDB API: Movie Video json keys -->
+    <string name="tmdb_json_site_key">key</string>
+    <string name="tmdb_json_name">name</string>
+    <string name="tmdb_json_site_name">site</string>
+
+    <!-- TheMovieDB API: Movie Review json keys -->
+    <string name="tmdb_json_author">author</string>
+    <string name="tmdb_json_content">content</string>
+    <string name="tmdb_json_url">url</string>
+
+    <!-- YouTube Urls -->
+    <string name="youtube_app_intent_url">vnd.youtube:</string>
+    <string name="youtube_web_intent_url">http://www.youtube.com/watch?v=</string>
+    <string name="youtube_movie_trailer_url_format">http://img.youtube.com/vi/<xliff:g id="trailer_id">%1$s</xliff:g>/hqdefault.jpg</string>
+
+    <!-- Global Formatted Favorite strings -->
+    <string name="format_added_favorite">Added <xliff:g id="movie_title">%1$s</xliff:g> as a favorite!</string>
+    <string name="format_removed_favorite"><xliff:g id="movie_title">%1$s</xliff:g> is no longer a favorite.</string>
+
+    <!-- Error message helper strings -->
+    <string name="error_unknown_uri">Unknown URI: <xliff:g id="uri">%1$s</xliff:g></string>
+    <string name="error_sqlexception_row">Failed to insert row. URI: <xliff:g>%1$s</xliff:g></string>
+
+</resources>

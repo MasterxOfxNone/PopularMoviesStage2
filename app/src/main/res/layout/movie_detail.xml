@@ -1,0 +1,21 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:divider="?android:attr/dividerHorizontal"
+    android:orientation="vertical"
+    android:showDividers="middle">
+
+    <include
+        layout="@layout/movie_title"/>
+
+    <include
+        layout="@layout/movie_extras"/>
+
+    <include
+        layout="@layout/movie_trailer"/>
+
+    <include
+        layout="@layout/movie_review"/>
+
+</LinearLayout>

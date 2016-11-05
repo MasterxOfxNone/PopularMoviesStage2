@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/movie_detail_activity_vertical_margin">
+
+    <ImageView
+        android:id="@+id/movie_poster"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:adjustViewBounds="true"
+        android:paddingBottom="@dimen/movie_poster_vertical_margin"
+        android:paddingLeft="@dimen/movie_poster_horizontal_margin"
+        android:paddingRight="@dimen/movie_poster_horizontal_margin"
+        android:paddingTop="@dimen/movie_poster_vertical_margin"
+        android:scaleType="centerInside"/>
+
+    <TextView
+        android:id="@+id/movie_release_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@id/movie_poster"
+        android:textSize="@dimen/movie_extras_release_date_text_size"/>
+
+    <TextView
+        android:id="@+id/movie_runtime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/movie_release_date"
+        android:layout_toEndOf="@id/movie_poster"
+        android:textSize="@dimen/movie_extras_runtime_text_size"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:id="@+id/movie_user_rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/movie_runtime"
+        android:layout_toEndOf="@id/movie_poster"
+        android:textSize="@dimen/movie_extras_user_rating_text_size"/>
+
+    <TextView
+        android:id="@+id/movie_plot_summary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/movie_poster"
+        android:paddingBottom="@dimen/movie_plot_summary_vertical_margin"
+        android:paddingTop="@dimen/movie_plot_summary_vertical_margin"
+        android:textSize="@dimen/movie_plot_summary_text_size"/>
+
+</RelativeLayout>

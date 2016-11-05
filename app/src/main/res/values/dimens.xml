@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="app_bar_height">200dp</dimen>
+    <dimen name="item_width">200dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="fav_margin">16dp</dimen>
+
+    <!-- DetailActivity -->
+    <dimen name="movie_detail_activity_horizontal_margin">16dp</dimen>
+    <dimen name="movie_detail_activity_vertical_margin">16dp</dimen>
+
+    <!-- Movie Title -->
+    <dimen name="movie_title_horizontal_margin">16dp</dimen>
+    <dimen name="movie_title_vertical_margin">32dp</dimen>
+    <dimen name="movie_title_text_size">32sp</dimen>
+
+    <!-- Movie Poster -->
+    <dimen name="movie_poster_horizontal_margin">16dp</dimen>
+    <dimen name="movie_poster_vertical_margin">4dp</dimen>
+
+    <!-- Movie Extras -->
+    <dimen name="movie_extras_horizontal_margin">16dp</dimen>
+    <dimen name="movie_extras_vertical_margin">4dp</dimen>
+    <dimen name="movie_extras_release_date_text_size">24sp</dimen>
+    <dimen name="movie_extras_runtime_text_size">18sp</dimen>
+    <dimen name="movie_extras_user_rating_text_size">14sp</dimen>
+
+    <!-- Movie Plot Summary -->
+    <dimen name="movie_plot_summary_horizontal_margin">16dp</dimen>
+    <dimen name="movie_plot_summary_vertical_margin">4dp</dimen>
+    <dimen name="movie_plot_summary_text_size">14sp</dimen>
+
+    <!-- Movie Trailers -->
+    <dimen name="movie_trailer_horizontal_margin">16dp</dimen>
+    <dimen name="movie_trailer_vertical_margin">4dp</dimen>
+    <dimen name="movie_trailer_item_margin">4dp</dimen>
+
+    <!-- Movie Reviews -->
+    <dimen name="movie_reviews_vertical_margin">4dp</dimen>
+    <dimen name="movie_reviews_author_horizontal_margin">16dp</dimen>
+    <dimen name="movie_reviews_content_horizontal_margin">32dp</dimen>
+    <dimen name="movie_reviews_content_right_horizontal_margin">16dp</dimen>
+
+</resources>
